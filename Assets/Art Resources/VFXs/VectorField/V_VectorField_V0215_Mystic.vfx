@@ -5629,7 +5629,7 @@ MonoBehaviour:
   m_InputSlots:
   - {fileID: 8926484042661615519}
   m_OutputSlots: []
-  m_Disabled: 1
+  m_Disabled: 0
   attribute: alpha
   Composition: 0
   AlphaComposition: 0
