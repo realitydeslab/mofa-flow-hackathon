@@ -26,8 +26,8 @@ public class MOFAPlancementAndAbsorbSceneManager : MonoBehaviour
             if(m_CollctableObjectInsatance == null)
             {
                 m_CollctableObjectInsatance = Instantiate(m_CollctableObjcetPrefab);
+                m_CollctableObjectInsatance.transform.position = m_Hits[0].pose.position + (Vector3.up * 0.75f);
             }
-            m_CollctableObjectInsatance.transform.position = m_Hits[0].pose.position + (Vector3.up * 0.75f);
         }
     }
 }
