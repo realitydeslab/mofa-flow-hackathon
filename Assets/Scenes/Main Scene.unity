@@ -194,6 +194,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 382353869, guid: 73f81e623fc3f45239104fbccb6c340f, type: 3}
+      propertyPath: _handPosSample
+      value: 
+      objectReference: {fileID: 2145418085}
+    - target: {fileID: 773190233, guid: 73f81e623fc3f45239104fbccb6c340f, type: 3}
+      propertyPath: Target
+      value: 
+      objectReference: {fileID: 2145418085}
+    - target: {fileID: 1326417924, guid: 73f81e623fc3f45239104fbccb6c340f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1033655813414368250, guid: 73f81e623fc3f45239104fbccb6c340f,
         type: 3}
       propertyPath: m_RootOrder
@@ -257,105 +269,26 @@ PrefabInstance:
     - target: {fileID: 1033655813414368251, guid: 73f81e623fc3f45239104fbccb6c340f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3532640556291065086, guid: 73f81e623fc3f45239104fbccb6c340f,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.size
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[5].m_Value
-      value: 20000
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[15].m_Name
-      value: Hand World Position
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[15].m_Value.x
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[15].m_Value.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[15].m_Value.z
-      value: 5.512
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[15].m_Overridden
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[1].m_Value.m_Curve.Array.data[1].time
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[1].m_Value.m_Curve.Array.data[1].value
-      value: 2.99986
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[3].m_Value.m_Curve.Array.data[0].value
-      value: 0.49132165
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[3].m_Value.m_Curve.Array.data[1].value
-      value: 2.0137763
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[1].m_Value.m_Curve.Array.data[1].inSlope
-      value: -0.11697835
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[3].m_Value.m_Curve.Array.data[1].inSlope
-      value: 3.79714
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[1].m_Value.m_Curve.Array.data[1].inWeight
-      value: 0.13216949
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[1].m_Value.m_Curve.Array.data[1].outSlope
-      value: -0.11697835
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[3].m_Value.m_Curve.Array.data[1].inWeight
-      value: 0.111677945
-      objectReference: {fileID: 0}
-    - target: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-        type: 3}
-      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[3].m_Value.m_Curve.Array.data[1].outSlope
-      value: 3.79714
       objectReference: {fileID: 0}
     - target: {fileID: 5777264016660103526, guid: 73f81e623fc3f45239104fbccb6c340f,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73f81e623fc3f45239104fbccb6c340f, type: 3}
+--- !u!1 &382353868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1033655813414368251, guid: 73f81e623fc3f45239104fbccb6c340f,
+    type: 3}
+  m_PrefabInstance: {fileID: 382353867}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,49 +483,7 @@ MonoBehaviour:
   m_RaycastManager: {fileID: 129458597}
   m_CollctableObjcetPrefab: {fileID: 1033655813414368251, guid: 73f81e623fc3f45239104fbccb6c340f,
     type: 3}
---- !u!1 &773190229 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5777264016660103520, guid: 73f81e623fc3f45239104fbccb6c340f,
-    type: 3}
-  m_PrefabInstance: {fileID: 382353867}
-  m_PrefabAsset: {fileID: 0}
---- !u!2083052967 &773190232 stripped
-VisualEffect:
-  m_CorrespondingSourceObject: {fileID: 5777264016660103525, guid: 73f81e623fc3f45239104fbccb6c340f,
-    type: 3}
-  m_PrefabInstance: {fileID: 382353867}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &773190233
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 773190229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07c3070554d0a8944a95ff8f018c2c9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Property:
-    m_Name: Hand World Position
-  Target: {fileID: 2145418085}
---- !u!114 &773190234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 773190229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdafc37f32b176349b1684c4455b98e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ExecuteInEditor: 1
-  m_Bindings:
-  - {fileID: 773190233}
-  m_VisualEffect: {fileID: 773190232}
+  m_CollctableObjcetObject: {fileID: 382353868}
 --- !u!1 &831656404
 GameObject:
   m_ObjectHideFlags: 0
@@ -722,7 +613,7 @@ GameObject:
   - component: {fileID: 1188758372}
   - component: {fileID: 1188758376}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Lean Touch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -799,8 +690,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188758371}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.619, y: -0.259, z: 5.305}
-  m_LocalScale: {x: 0.5, y: 1.6, z: 0.3}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

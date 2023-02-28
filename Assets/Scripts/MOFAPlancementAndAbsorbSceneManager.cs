@@ -11,6 +11,10 @@ public class MOFAPlancementAndAbsorbSceneManager : MonoBehaviour
     [SerializeField]
     GameObject m_CollctableObjcetPrefab;
 
+
+    [SerializeField]
+    GameObject m_CollctableObjcetObject;
+
     GameObject m_CollctableObjectInsatance;
 
     List<ARRaycastHit> m_Hits = new List<ARRaycastHit>();
@@ -25,8 +29,10 @@ public class MOFAPlancementAndAbsorbSceneManager : MonoBehaviour
             // Only returns true if there is at least one hit
             if(m_CollctableObjectInsatance == null)
             {
-                m_CollctableObjectInsatance = Instantiate(m_CollctableObjcetPrefab);
-                m_CollctableObjectInsatance.transform.position = m_Hits[0].pose.position + (Vector3.up * 0.75f);
+                //m_CollctableObjectInsatance = Instantiate(m_CollctableObjcetPrefab);
+
+                m_CollctableObjcetObject.SetActive(true);
+                m_CollctableObjcetObject.transform.position = m_Hits[0].pose.position + (Vector3.up * 0f);
             }
         }
     }
