@@ -60,8 +60,8 @@ public class ObjectShake : MonoBehaviour
     {
 		Shake();
 		yield return new WaitForSeconds(1f);
-		Shake();
-		yield return new WaitForSeconds(1f);
-		Shake();
-	}
+        //Shake();
+        //yield return new WaitForSeconds(1f);
+        //Shake();
+    }
 }
