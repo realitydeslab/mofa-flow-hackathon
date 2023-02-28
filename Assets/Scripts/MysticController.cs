@@ -20,6 +20,7 @@ public class MysticController : MonoBehaviour
     [SerializeField]
     Transform _handPosSample;
 
+    [SerializeField]
     float _interactRadius = 1f;
 
     float _absorbProcess = 0;
@@ -37,7 +38,7 @@ public class MysticController : MonoBehaviour
     {
         if (_elementCubeActive)
         {
-            if (Vector3.Distance(_handPosSample.position, this.transform.position) < _interactRadius)
+            if (Vector3.Distance(_handPosSample.position, this.transform.position + (Vector3.up * 1f)) < _interactRadius)
             {
                 _absorbProcess += Time.deltaTime * 0.5f;
                 if (_absorbProcess > 1)
@@ -45,6 +46,8 @@ public class MysticController : MonoBehaviour
                     _absorbProcess = 1;
                     // do sth when collection done
                     Debug.Log("Done Collection! Added object to your wallet!");
+                    FindObjectOfType<ExploreSceneManager>().OpenPopupWindows();
+                    _elementCubeActive = false;
                 }
             }
             else

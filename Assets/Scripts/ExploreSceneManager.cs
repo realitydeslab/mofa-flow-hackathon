@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.SceneManagement;
 
-public class MOFAPlancementAndAbsorbSceneManager : MonoBehaviour
+
+public class ExploreSceneManager : MonoBehaviour
 {
     [SerializeField]
     ARRaycastManager m_RaycastManager;
@@ -14,6 +16,10 @@ public class MOFAPlancementAndAbsorbSceneManager : MonoBehaviour
 
     [SerializeField]
     GameObject m_CollctableObjcetObject;
+
+    [Header("UI Components")]
+    [SerializeField]
+    GameObject m_PopupWindow;
 
     GameObject m_CollctableObjectInsatance;
 
@@ -35,5 +41,20 @@ public class MOFAPlancementAndAbsorbSceneManager : MonoBehaviour
                 m_CollctableObjcetObject.transform.position = m_Hits[0].pose.position + (Vector3.up * 0f);
             }
         }
+    }
+
+    public void ClosePopupWindows()
+    {
+        m_PopupWindow.SetActive(false);
+    }
+
+    public void OpenPopupWindows()
+    {
+        m_PopupWindow.SetActive(true);
+    }
+
+    public void LoadScene(string SceneName)
+    {
+        SceneManager.LoadScene(SceneName, LoadSceneMode.Single);
     }
 }
